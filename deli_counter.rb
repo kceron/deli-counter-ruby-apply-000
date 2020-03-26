@@ -12,9 +12,15 @@ def line(katz_deli)
 end
 
 def take_a_number
-  
-  puts "Order number ."
+  number = 1
+  puts "Order number #{number}."
+  number += 1 
 end
+
+puts take_a_number
+puts take_a_number
+puts take_a_number
+
 
 def now_serving(katz_deli)
   if katz_deli.empty?
