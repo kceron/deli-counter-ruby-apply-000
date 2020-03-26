@@ -11,8 +11,9 @@ def line(katz_deli)
   end
 end
 
+
 def take_a_number
-  number = 1
+  
   puts "Order number #{number}."
   number += 1 
 end
